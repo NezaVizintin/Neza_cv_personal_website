@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5419f517-ca23-478a-9207-f009e2774a1f" name="Default Changelist" comment="" />
+    <list default="true" id="5419f517-ca23-478a-9207-f009e2774a1f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +24,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -67,28 +70,60 @@
       <option name="presentableId" value="Default" />
       <updated>1664816801526</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated procfile (test)">
+      <created>1664819973929</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664819973929</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated procfile (test)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated procfile (test)" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1664818940977">
+    <state x="491" y="138" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1664820629402">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1664818940977" />
-    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1664818940977">
+    <state x="491" y="138" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1600.860@0.0.1600.860" timestamp="1664820629402" />
+    <state x="480" y="170" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1664820461057">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1664818940977" />
-    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1664818940977">
+    <state x="480" y="170" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.860@0.0.1600.860" timestamp="1664820461057" />
+    <state x="867" y="33" key="CommitChangelistDialog2" timestamp="1664819973141">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1664818940977" />
-    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1664818940977">
+    <state x="867" y="33" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1664819973141" />
+    <state width="1579" height="221" key="GridCell.Tab.0.bottom" timestamp="1664820487986">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1664818940977" />
-    <state x="303" y="76" key="SettingsEditor" timestamp="1664819423997">
+    <state width="1579" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1664820487986" />
+    <state width="1579" height="221" key="GridCell.Tab.0.center" timestamp="1664820487986">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="303" y="76" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1664819423997" />
+    <state width="1579" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1664820487986" />
+    <state width="1579" height="221" key="GridCell.Tab.0.left" timestamp="1664820487986">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1664820487986" />
+    <state width="1579" height="221" key="GridCell.Tab.0.right" timestamp="1664820487986">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1664820487986" />
+    <state x="303" y="76" key="SettingsEditor" timestamp="1664821334413">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="303" y="76" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1664821334413" />
+    <state x="508" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1664820611698">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="508" y="257" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1664820611698" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1664820957280">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1664820957280" />
   </component>
 </project>
