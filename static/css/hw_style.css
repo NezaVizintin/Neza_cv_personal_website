@@ -1,0 +1,99 @@
+:root {
+    --button-color: #5783db;
+    --button-color-hover: #75A1F9;
+    --button-shadow-focus: #618DE5;
+}
+
+body {
+    background-size: 100vw 100vh;
+
+    background-image: radial-gradient(rgba(255, 192, 203, 0.2), rgba(140, 130, 182, 0.1));
+}
+
+.title {
+    color: slategrey;
+    margin-bottom: 60px;
+    font-family: "Sabon";
+    font-size: 50px;
+}
+
+.text {
+    color: charcoal;
+    font-family: "Sabon";
+}
+
+.text-headline-list {
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-size-3 {
+    font-size: 18px;
+}
+
+.text-size-2 {
+    font-size: 20px;
+}
+
+.text-size-1 {
+    font-size: 30px;
+}
+
+.center-element {
+    text-align: center;
+}
+
+.center-body {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.align-bottom-left {
+    position: absolute;
+    bottom: 15px;
+    z-index: 1;
+}
+
+.button-back {
+    color: slategrey;
+    font-size: 50px;
+}
+
+/*bootstrap mods*/
+
+.btn-info {
+  background-color: var(--button-color);
+}
+
+.btn-info:hover {
+  background-color: var(--button-color-hover);
+}
+
+.btn-info:focus, .btn-info.focus {
+  background-color: var(--button-color-hover);
+  border-color: var(--button-shadow-focus);
+}
+
+.btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active,
+.show > .btn-info.dropdown-toggle {
+  background-color: var(--button-color-hover);
+  border-color: var(--button-shadow-focus);
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 270px;
+}
+
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+.container {
+  align-content: center;
+  align-items: center;
+}
