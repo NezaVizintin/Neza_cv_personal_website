@@ -22,6 +22,7 @@
     </head>
 
     <body>
+        {% block content %}
         <i onclick="window.location.href='/'" class="bi bi-arrow-left button-back pt-5 pl-5"></i>
         <div class="card-deck center-body">
             <div class="card" style="width: 18rem;">
@@ -51,5 +52,6 @@
               </div>
             </div>
         </div>
+        {% endblock content %}
     </body>
 </html>

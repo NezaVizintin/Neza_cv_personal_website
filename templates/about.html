@@ -22,6 +22,7 @@
     </head>
 
     <body>
+        {% block content %}
         <i onclick="window.location.href='/'" class="bi bi-arrow-left button-back pt-5 pl-5"></i>
         <div class="container py-5">
             <div class="row align-items-center" style="row-gap: 50px;">
@@ -49,7 +50,7 @@
                     <p class="text text-size-1 text-center font-italic pt-5">My skillset may be unique, but it's also unique!</p>
                 </div>
             </div>
-
         </div>
+        {% endblock content %}
     </body>
 </html>

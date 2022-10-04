@@ -16,16 +16,18 @@
         <script src="/static/js/bootstrap.js"></script>
 
         <link rel="stylesheet" href="/static/css/hw_style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sahitya|Geostar-Fill" >
-
-
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sahitya|Geostar-Fill">
     </head>
 
-    <body class="center-body">
-        <h1 class="title center-element">Hello, my name is Neža and I love to learn!</h1>
-        <div class="center-element">
-            <button onclick="window.location.href='/about'" class="btn btn-info" style="margin-right:20px;">About me</button>
-            <button onclick="window.location.href='/portfolio'" class="btn btn-info">Portfolio</button>
+    <body>
+        {% block content %}
+        <div class="center-body">
+            <h1 class="title center-element">Hello, my name is Neža and I love to learn!</h1>
+            <div class="center-element">
+                <a href="/about" class="btn btn-info" style="margin-right:20px;" role="button">About me</a>
+                <a href="/portfolio" class="btn btn-info" role="button">Portfolio</a>
+            </div>
         </div>
+        {% endblock content %}
     </body>
 </html>
