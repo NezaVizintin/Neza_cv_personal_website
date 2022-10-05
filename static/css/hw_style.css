@@ -43,11 +43,12 @@ body {
 }
 
 .center-body {
-    position: absolute;
+    margin-top: 30vh;
+/*    position: absolute;
     top: 40%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%)*/
 }
 
 .align-bottom-left {

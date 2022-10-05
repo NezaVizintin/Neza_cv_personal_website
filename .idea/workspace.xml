@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5419f517-ca23-478a-9207-f009e2774a1f" name="Default Changelist" comment="Minor changes">
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+    <list default="true" id="5419f517-ca23-478a-9207-f009e2774a1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/hw_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/hw_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Procfile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portfolio.html" afterDir="false" />
     </list>
@@ -43,7 +42,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lekcija_15_web_servers_cloud_jinja" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -104,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664821565641</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Minor changes before Jinga implementation">
+      <created>1664911243587</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664911243587</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -113,7 +119,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated procfile (test)" />
     <MESSAGE value="changed python version (Heroku deployment not working)" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed python version (Heroku deployment not working)" />
+    <MESSAGE value="Minor changes before Jinga implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor changes before Jinga implementation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="491" y="138" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1664820629402">
@@ -124,30 +131,30 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="480" y="170" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.860@0.0.1600.860" timestamp="1664820461057" />
-    <state x="867" y="33" key="CommitChangelistDialog2" timestamp="1664911222962">
+    <state x="867" y="33" key="CommitChangelistDialog2" timestamp="1664911242644">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="867" y="33" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1664911222962" />
-    <state x="580" y="188" key="FileChooserDialogImpl" timestamp="1664901308096">
+    <state x="867" y="33" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1664911242644" />
+    <state x="580" y="188" key="FileChooserDialogImpl" timestamp="1664912129219">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="188" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1664901308096" />
-    <state width="1579" height="221" key="GridCell.Tab.0.bottom" timestamp="1664909926978">
+    <state x="580" y="188" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1664912129219" />
+    <state width="1579" height="221" key="GridCell.Tab.0.bottom" timestamp="1664985636039">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1664909926978" />
-    <state width="1579" height="221" key="GridCell.Tab.0.center" timestamp="1664909926978">
+    <state width="1579" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1664985636039" />
+    <state width="1579" height="221" key="GridCell.Tab.0.center" timestamp="1664985636039">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1664909926978" />
-    <state width="1579" height="221" key="GridCell.Tab.0.left" timestamp="1664909926962">
+    <state width="1579" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1664985636039" />
+    <state width="1579" height="221" key="GridCell.Tab.0.left" timestamp="1664985636039">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1664909926962" />
-    <state width="1579" height="221" key="GridCell.Tab.0.right" timestamp="1664909926978">
+    <state width="1579" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1664985636039" />
+    <state width="1579" height="221" key="GridCell.Tab.0.right" timestamp="1664985636039">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1664909926978" />
+    <state width="1579" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1664985636039" />
     <state x="303" y="76" key="SettingsEditor" timestamp="1664821334413">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -156,6 +163,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="508" y="257" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1664900978072" />
+    <state x="611" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1664912081673">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="611" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1664912081673" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1664820957280">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

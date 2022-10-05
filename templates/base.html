@@ -2,16 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="/static/css/hw_style.css">
+    <!--TODO: <link>src="{{ url_for('static', filename='img/carousel_img_1.jpg') }}"</link>-->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+
+    <!-- JavaScript files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="/static/js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="/static/css/hw_style.css">
+    <link rel="stylesheet" href="/static/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sahitya|Geostar-Fill">
 </head>
 
 <body>
+
     {% block content %}
     {% endblock content %}
 
-    <p>
+<!--    <p>
       <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
         Link with href
       </a>
@@ -23,6 +35,6 @@
       <div class="card card-body">
         Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
       </div>
-    </div>
+    </div>-->
 </body>
 </html>
