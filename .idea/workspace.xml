@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5419f517-ca23-478a-9207-f009e2774a1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664985990590</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fix Heroku proc file">
+      <created>1665070802912</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665070802912</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -125,7 +130,8 @@
     <MESSAGE value="changed python version (Heroku deployment not working)" />
     <MESSAGE value="Minor changes before Jinga implementation" />
     <MESSAGE value="Started implementing Jinja templating engine" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started implementing Jinja templating engine" />
+    <MESSAGE value="Fix Heroku proc file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Heroku proc file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="491" y="138" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1664820629402">
@@ -136,10 +142,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="480" y="170" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.860@0.0.1600.860" timestamp="1664820461057" />
-    <state x="867" y="33" key="CommitChangelistDialog2" timestamp="1664985989191">
+    <state x="867" y="33" key="CommitChangelistDialog2" timestamp="1665070802141">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="867" y="33" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1664985989191" />
+    <state x="867" y="33" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1665070802141" />
     <state x="580" y="188" key="FileChooserDialogImpl" timestamp="1664912129219">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
