@@ -19,6 +19,11 @@
 </head>
 
 <body>
+    {% if request.path == "/" %}
+        <i onclick="window.location.href='/'" class="bi bi-arrow-left button-back mt-5 ml-5 invisible"></i>
+    {% else %}
+        <i onclick="window.location.href='/'" class="bi bi-arrow-left button-back mt-5 ml-5"></i>
+    {% endif %}
 
     {% block content %}
     {% endblock content %}

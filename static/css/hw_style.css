@@ -43,7 +43,10 @@ body {
 }
 
 .center-body {
-    margin-top: 30vh;
+    margin-top: 25vh;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 /*    position: absolute;
     top: 40%;
     left: 50%;
