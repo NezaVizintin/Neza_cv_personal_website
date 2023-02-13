@@ -43,50 +43,54 @@ body {
 }
 
 .center-body {
-    position: fixed;
-    right: 0;
-    left: 0;
-    top: 0;
-    margin: 0;
-    padding: 0;
+    position: fixed; /* ignores all other elements on the page */
+    /* expands the element to the width and height of the parent element (the screen because the position is fixed) */
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-/*
-    margin-top: 25vh;
-    max-width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-/*    position: absolute;
-    top: 40%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)*/
+
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex; /* enables flex box */
+    flex-direction: column; /* displays elements in a column */
+    justify-content: center;  /* items are horizontally centered and not spaced out */
+    align-items: center;  /* items retain their size and are vertically centered  */
 }
 
-.align-bottom-left {
-    position: absolute;
-    bottom: 15px;
-    z-index: 1;
+.flex-row-evenly {
+    display: flex; /* enables flex box */
+    flex-flow: row nowrap;  /* shortcut that combines flex direction and flex wrap */
+    justify-content: space-evenly; /* items are evenly distributed in the line; first item is on the start line, last item on the end line */
 }
 
 .button-back {
+    position: fixed; /* ignores all other elements on the page */
     color: slategrey;
     font-size: 50px;
     cursor: pointer;
+    z-index: 999; /* An element with greater stack order (z-index) is always in front of an element with a lower stack order. */
 }
 
 .button-back:hover {
-    color: rgba(255, 255, 255, 0.9);
+    color: dimgrey;
 }
 
+.bottom-button {
+    height: 33px;
+    margin-bottom: 15px;
+}
 
+.card-button-container {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-end;
+}
 
-/*bootstrap mods*/
+/*BOOTSTRAP MODS:*/
 
 .btn-info {
   background-color: var(--button-color);
@@ -121,3 +125,13 @@ body {
   align-content: center;
   align-items: center;
 }
+
+/* ARCHIVE: */
+
+/*
+.align-bottom-left {
+    position: absolute;
+    bottom: 15px;
+    z-index: 1;
+}
+*/

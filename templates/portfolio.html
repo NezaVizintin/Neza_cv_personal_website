@@ -3,32 +3,40 @@
 {% block title %}<title>Portfolio</title>{% endblock title %}
 
 {% block content %}
-    <div class="card-deck center-body">
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Hans the Hairdresser</h5>
-            <h6 class="card-subtitle mb-2 text-muted">CSS, HTML</h6>
-            <p class="card-text">Frontend solo homework project for Smart Ninja course: Web development 1. </p>
-            <a href="https://hairdresser-hans-website-production.up.railway.app/" class="btn btn-sm btn-info align-bottom-left" style="margin-right:20px;">Open page</a>
-          </div>
-        </div>
+    <div class="center-body">
+        <div class="card-deck flex-row">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Hans the Hairdresser</h5>
+                <h6 class="card-subtitle mb-2 text-muted">CSS, HTML</h6>
+                <p class="card-text">Frontend solo homework project for Smart Ninja course: Web development 1. </p>
+                <div class="card-button-container">
+                    <a href="https://hairdresser-hans-website-production.up.railway.app/" class="btn btn-sm btn-info center-element bottom-button">Open page</a>
+                </div>
+              </div>
+            </div>
 
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Asteroids</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Python</h6>
-            <p class="card-text">Full asteroid game solo project. Final project for "Introduction to Interactive Programming in Python" course from RICE University.</p>
-            <a href="https://github.com/NezaVizintin/Asteroids" class="btn btn-sm btn-info align-bottom-left" style="margin-right:20px;" role="button">Play game</a>
-          </div>
-        </div>
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Asteroids</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Python</h6>
+                <p class="card-text">Full asteroid game solo project. Final project for "Introduction to Interactive Programming in Python" course from RICE University.</p>
+                <div class="card-button-container">
+                    <a href="https://github.com/NezaVizintin/Asteroids" class="btn btn-sm btn-info center-element bottom-button" role="button">Play game</a>
+                </div>
+              </div>
+            </div>
 
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Guess the number</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Python</h6>
-            <p class="card-text">Solo homework project for Smart Ninja course: Web development 1. It includes all the python skills I obtained through the course.</p>
-            <a href="https://github.com/NezaVizintin/Guess_the_number_game" class="btn btn-sm btn-info align-bottom-left" style="margin-right:20px;">Open git</a>
-          </div>
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Guess the number</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Python</h6>
+                <p class="card-text">Solo homework project for Smart Ninja course: Web development 1. It includes all the python skills I obtained through the course.</p>
+                <div class="card-button-container">
+                    <a href="https://github.com/NezaVizintin/Guess_the_number_game" class="btn btn-sm btn-info center-element bottom-button" role="button">Open git</a>
+                </div>
+              </div>
+            </div>
         </div>
     </div>
 {% endblock content %}
