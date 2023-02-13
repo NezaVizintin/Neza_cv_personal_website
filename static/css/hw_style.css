@@ -63,7 +63,14 @@ body {
 .button-back {
     color: slategrey;
     font-size: 50px;
+    cursor: pointer;
 }
+
+.button-back:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
 
 /*bootstrap mods*/
 
@@ -92,7 +99,7 @@ body {
 }
 
 .card:hover {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 
