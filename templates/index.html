@@ -5,9 +5,56 @@
 {% block content %}
     <div class="mx-auto center-body">
         <h1 class="title center-element">Hello, my name is Neža and I love to learn!</h1>
+            <div class="center-element margin-bottom-50">
+                <div id="fact-generator-text" class="margin-bottom-50">&nbsp;</div>
+                <button id="fact-generator-button" class="btn btn-info">Random fact generator</button>
+            </div>
         <div class="center-element">
             <a href="/about" class="btn btn-info" style="margin-right:20px;" role="button">About me</a>
             <a href="/portfolio" class="btn btn-info" role="button">Portfolio</a>
         </div>
     </div>
 {% endblock content %}
+
+{% block javascript %}
+    <script>
+        //document.getElementById("fact-generator-button").addEventListener("click", getAndShowFact()); -- vanilla js (not jquery)
+
+        var timeoutId;
+
+        function writeCharacter(ElementId, character) {
+           $("#" + ElementId).append(character);
+        }
+
+        function typewriteToElement(elementId, text, speed) {
+            console.log("elementId = " + elementId + " text = " + text + " speed = " + speed + " timeoutId = " + timeoutId);
+            if(typeof timeoutId !== "undefined") {
+                console.log("clearing timeout " + timeoutId);
+                clearTimeout(timeoutId);
+            }
+            let i = 0;
+            iterate();
+            function iterate() {
+                console.log(speed + " " + i + " id " + timeoutId);
+                if (i < text.length) {
+                    $("#" + elementId).append(text.charAt(i));
+                    i++;
+                    timeoutId = setTimeout(iterate, speed);
+                }
+            }
+        }
+
+        $(document).ready(function() {
+            //$("#fact-generator-button").on("click", getAndShowFact())
+            $("#fact-generator-button").on("click", function() {
+                console.log("running onclick event"); //for debugging
+                $.get("/fact-generator", function(data) {
+                    console.log(data); //for debugging
+
+                    $("#fact-generator-text").html("&nbsp;")
+                    typewriteToElement("fact-generator-text", data, 50)
+                });
+            })
+        });
+    </script>
+{% endblock javascript %}

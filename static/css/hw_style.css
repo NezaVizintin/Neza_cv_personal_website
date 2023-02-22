@@ -38,9 +38,15 @@ body {
     font-size: 30px;
 }
 
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+
 .center-element {
     text-align: center;
 }
+
+
 
 .center-body {
     position: fixed; /* ignores all other elements on the page */
@@ -60,6 +66,13 @@ body {
     display: flex; /* enables flex box */
     flex-flow: row nowrap;  /* shortcut that combines flex direction and flex wrap */
     justify-content: space-evenly; /* items are evenly distributed in the line; first item is on the start line, last item on the end line */
+}
+
+
+
+.text-random-fact {
+    color: charcoal;
+    font-family: "Sabon";
 }
 
 .button-back {

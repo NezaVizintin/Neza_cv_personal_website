@@ -1,4 +1,6 @@
 from flask import Flask, render_template
+import json
+import random
 
 app = Flask(__name__)
 
@@ -17,6 +19,15 @@ def portfolio():
 @app.route("/portfolio/hair-salon")
 def hair_salon():
     return render_template("hair_salon_index.html")
+
+@app.route("/fact-generator")
+def fact_generator():
+    with open("facts.json", "r") as facts_file:  # opens score file to read
+        fact_list = json.loads(facts_file.read())
+
+    fact = random.choice(list(fact_list.values()))
+
+    return fact
 
 if __name__ == "__main__":
     app.run(use_reloader=True)
