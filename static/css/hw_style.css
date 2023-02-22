@@ -75,6 +75,11 @@ body {
     font-family: "Sabon";
 }
 
+.container-index-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
 .button-back {
     position: fixed; /* ignores all other elements on the page */
     color: slategrey;
