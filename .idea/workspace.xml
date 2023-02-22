@@ -3,12 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="5419f517-ca23-478a-9207-f009e2774a1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/hw_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/hw_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Neza_cv_personal_website" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,9 +42,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lekcija_15_web_servers_cloud_jinja" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Programiranje\SmartNinja\Neza_cv_personal_website" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Programiranje\SmartNinja\Neza_cv_personal_website" />
     </key>
@@ -137,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676309476479</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Center index with flexbox">
+      <created>1676310928615</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676310928615</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -151,28 +164,53 @@
     <MESSAGE value="Fix Heroku proc file" />
     <MESSAGE value="Change python version" />
     <MESSAGE value="Small tweaks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small tweaks" />
+    <MESSAGE value="Center index with flexbox" />
+    <option name="LAST_COMMIT_MESSAGE" value="Center index with flexbox" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="467" y="28" key="CommitChangelistDialog2" timestamp="1676309474568">
+    <state x="526" y="71" key="#main" timestamp="1676312794843">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="467" y="28" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1676309474568" />
-    <state width="1579" height="221" key="GridCell.Tab.0.bottom" timestamp="1676309802583">
+    <state x="526" y="71" key="#main/0.0.1600.860@0.0.1600.860" timestamp="1676312794843" />
+    <state x="467" y="28" key="CommitChangelistDialog2" timestamp="1676310927550">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1676309802583" />
-    <state width="1579" height="221" key="GridCell.Tab.0.center" timestamp="1676309802583">
+    <state x="467" y="28" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1676310927550" />
+    <state width="1579" height="115" key="GridCell.Tab.0.bottom" timestamp="1677087576133">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1676309802583" />
-    <state width="1579" height="221" key="GridCell.Tab.0.left" timestamp="1676309802583">
+    <state width="1579" height="115" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1677087576133" />
+    <state width="1579" height="115" key="GridCell.Tab.0.center" timestamp="1677087576133">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1676309802583" />
-    <state width="1579" height="221" key="GridCell.Tab.0.right" timestamp="1676309802583">
+    <state width="1579" height="115" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1677087576133" />
+    <state width="1579" height="115" key="GridCell.Tab.0.left" timestamp="1677087576133">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1676309802583" />
+    <state width="1579" height="115" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1677087576133" />
+    <state width="1579" height="115" key="GridCell.Tab.0.right" timestamp="1677087576133">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="115" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1677087576133" />
+    <state x="303" y="75" key="SettingsEditor" timestamp="1676315594880">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="303" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1676315594880" />
+    <state x="508" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1676312887996">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="508" y="257" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1676312887996" />
+    <state x="611" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1677009722621">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="611" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1677009722621" />
+    <state x="445" y="157" width="710" height="546" key="find.popup" timestamp="1676314224878">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="445" y="157" width="710" height="546" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1676314224878" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1676656837861">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1676656837861" />
   </component>
 </project>
