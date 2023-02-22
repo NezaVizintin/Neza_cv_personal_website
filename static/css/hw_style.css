@@ -42,6 +42,10 @@ body {
     margin-bottom: 50px;
 }
 
+.margin-right-20 {
+    margin-right:20px;
+}
+
 .center-element {
     text-align: center;
 }
@@ -92,8 +96,9 @@ body {
     color: dimgrey;
 }
 
-.bottom-button {
+.card-button {
     height: 33px;
+    width: 70px;
     margin-bottom: 15px;
 }
 
