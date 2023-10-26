@@ -1,35 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5419f517-ca23-478a-9207-f009e2774a1f" name="Default Changelist" comment="Center index with flexbox">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5419f517-ca23-478a-9207-f009e2774a1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facts.json" beforeDir="false" afterPath="$PROJECT_DIR$/facts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/dall_e_me.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Neza_cv_personal_website" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
       </list>
-    </option>
-  </component>
-  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
-    <envs>
-      <env key="FLASK_APP" value="app" />
-    </envs>
-    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
-    <option name="myEnvs">
-      <map>
-        <entry key="FLASK_APP" value="app" />
-      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -40,26 +28,22 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
   <component name="ProjectId" id="2FdL1lJ5dEBlZ4VDK3lcpAG9Fvt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Neza/Programiranje/Projekti/Kuharska_knjiga&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lekcija_15_web_servers_cloud_jinja" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Programiranje\SmartNinja\Neza_cv_personal_website" />
@@ -81,7 +65,6 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -100,7 +83,6 @@
   <component name="ServiceViewManager">
     <option name="showServicesTree" value="false" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -111,12 +93,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664816801526</updated>
-      <workItem from="1678295211136" duration="155000" />
-      <workItem from="1678296028626" duration="523000" />
-      <workItem from="1678297634031" duration="1120000" />
-      <workItem from="1678823073125" duration="1981000" />
-      <workItem from="1678894570060" duration="1728000" />
-      <workItem from="1679330943655" duration="3135000" />
     </task>
     <task id="LOCAL-00001" summary="Updated procfile (test)">
       <created>1664819973929</created>
@@ -177,22 +153,8 @@
     <option name="localTasksCounter" value="9" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated procfile (test)" />
@@ -205,7 +167,50 @@
     <MESSAGE value="Center index with flexbox" />
     <option name="LAST_COMMIT_MESSAGE" value="Center index with flexbox" />
   </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Neza_cv_personal_website$main.coverage" NAME="main Coverage Results" MODIFIED="1679332065400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  <component name="WindowStateProjectService">
+    <state x="526" y="71" key="#main" timestamp="1676312794843">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="526" y="71" key="#main/0.0.1600.860@0.0.1600.860" timestamp="1676312794843" />
+    <state x="467" y="28" key="CommitChangelistDialog2" timestamp="1676310927550">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="467" y="28" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1676310927550" />
+    <state width="1579" height="115" key="GridCell.Tab.0.bottom" timestamp="1677087576133">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="115" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1677087576133" />
+    <state width="1579" height="115" key="GridCell.Tab.0.center" timestamp="1677087576133">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="115" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1677087576133" />
+    <state width="1579" height="115" key="GridCell.Tab.0.left" timestamp="1677087576133">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="115" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1677087576133" />
+    <state width="1579" height="115" key="GridCell.Tab.0.right" timestamp="1677087576133">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="115" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1677087576133" />
+    <state x="303" y="75" key="SettingsEditor" timestamp="1676315594880">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="303" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1676315594880" />
+    <state x="508" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1676312887996">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="508" y="257" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1676312887996" />
+    <state x="611" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1677009722621">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="611" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1677009722621" />
+    <state x="445" y="157" width="710" height="546" key="find.popup" timestamp="1676314224878">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="445" y="157" width="710" height="546" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1676314224878" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1676656837861">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1676656837861" />
   </component>
 </project>
