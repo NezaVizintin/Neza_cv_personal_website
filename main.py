@@ -4,21 +4,26 @@ import random
 
 app = Flask(__name__)
 
+
 @app.route("/")
 def index():
     return render_template("index.html")
+
 
 @app.route("/about")
 def about():
     return render_template("about.html")
 
+
 @app.route("/portfolio")
 def portfolio():
-    return render_template("portfolio.html")
+    return render_template("portfolio.html", classes_cards="card col-12 col-xl p-0 d-flex")
+
 
 @app.route("/portfolio/hair-salon")
 def hair_salon():
     return render_template("hair_salon_index.html")
+
 
 @app.route("/fact-generator")
 def fact_generator():
@@ -28,6 +33,7 @@ def fact_generator():
     fact = random.choice(list(fact_list.values()))
 
     return fact
+
 
 if __name__ == "__main__":
     app.run(use_reloader=True)

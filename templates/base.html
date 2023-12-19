@@ -14,35 +14,35 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="/static/js/bootstrap.js"></script>
 
-    <link rel="stylesheet" href="/static/css/hw_style.css">
     <link rel="stylesheet" href="/static/node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sahitya|Geostar-Fill">
+    <link rel="stylesheet" href="/static/css/hw_style.css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../static/favicon/site.webmanifest">
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/729eac01bc.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    {% if request.path == "/" %}
-        <i onclick="window.location.href='/'" class="bi bi-arrow-left button-back mt-5 ml-5 invisible"></i>
-    {% else %}
-        <i onclick="window.location.href='/'" class="bi bi-arrow-left button-back mt-5 ml-5"></i>
-    {% endif %}
 
-    {% block content %}
-    {% endblock content %}
+{% if request.path == "/" %}
+    {{ pass }}
+{% else %}
+    <div class="d-flex align-items-start">
+        <i onclick="window.location.href='/'" class="bi bi-arrow-left button-back mt-3 ml-5 col-1"></i>
+    </div>
+{% endif %}
 
-    {% block javascript %}
-    {% endblock javascript %}
-<!--    <p>
-      <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-        Link with href
-      </a>
-      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-        Button with data-bs-target
-      </button>
-    </p>
-    <div class="collapse" id="collapseExample">
-      <div class="card card-body">
-        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-      </div>
-    </div>-->
+{% block content %}
+{% endblock content %}
+
+{% block javascript %}
+{% endblock javascript %}
 </body>
 </html>

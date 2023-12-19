@@ -1,0 +1,12 @@
+
+- portfolio: improve cards, add carousel
+- use as much custom css instead of bootstrap as possible
+- content (portfolio, about, random facts)
+- add credits to: https://codepen.io/davidbiek/pen/bMrQKN
+
+- change px-ls in to rem or em in CSS
+- redo with MDB
+- redo in react
+- figure out style="height: 500px;" in cards (use a css class)
+
+- add play as different characters and add github oauth to guess the number game

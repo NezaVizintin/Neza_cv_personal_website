@@ -1,46 +1,221 @@
 {% extends "base.html" %}
 
-{% block title %}<title>Portfolio</title>{% endblock title %}
+{% block title %}<title xmlns="http://www.w3.org/1999/html">Portfolio</title>{% endblock title %}
 
 {% block content %}
-    <div class="center-body">
-        <div class="card-deck flex-row">
-            <div class="card" style="width: 18rem;">
-              <div class="card-body">
-                <h5 class="card-title">Hans the Hairdresser</h5>
-                <h6 class="card-subtitle mb-2 text-muted"><abbr title="Cascading Style Sheets">CSS</abbr>, <abbr title="Hypertext Markup Language">HTML</abbr>, Bootstrap</h6>
-                <p class="card-text">Frontend solo homework project for Smart Ninja course: Web development 1. </p>
-                <div class="card-button-container">
-                    <a href="https://hairdresser-hans-website-production.up.railway.app/" class="btn btn-sm btn-info center-element card-button margin-right-20">Open</a>
-                    <a href="https://github.com/NezaVizintin/Hairdresser-Hans-website" class="btn btn-sm btn-info center-element card-button" role="button">Git</a>
+    <div class="row d-flex align-items-center justify-content-center margin-top-10rem">
+        <div class="col-1 d-flex align-items-center justify-content-center">
+            <a href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <div class="carousel-nav-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path d="m88.6,121.3c0.8,0.8 1.8,1.2 2.9,1.2s2.1-0.4 2.9-1.2c1.6-1.6 1.6-4.2 0-5.8l-51-51 51-51c1.6-1.6 1.6-4.2 0-5.8s-4.2-1.6-5.8,0l-54,53.9c-1.6,1.6-1.6,4.2 0,5.8l54,53.9z"></path>
+                    </svg>
                 </div>
-              </div>
-            </div>
+            </a>
+        </div>
+        <div class="col-8 ">
+            <!--Start carousel-->
+            <div id="carouselExampleIndicators" class="carousel slide" data-interval="false" data-ride="carousel">
+                <div class="carousel-inner">
 
-            <div class="card" style="width: 18rem;">
-              <div class="card-body">
-                <h5 class="card-title">Asteroids</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Python, <abbr title="Model-view-controller">MVC</abbr> </h6>
-                <p class="card-text">Full asteroid game solo project. Final project for "Introduction to Interactive Programming in Python" course from RICE University.</p>
-                <div class="card-button-container">
-                    <a href="https://py2.codeskulptor.org/#user49_hSjNJfJHxm_0.py" class="btn btn-sm btn-info center-element card-button margin-right-20" role="button">Play</a>
-                    <a href="https://github.com/NezaVizintin/Asteroids" class="btn btn-sm btn-info center-element card-button" role="button">Git</a>
-                </div>
-              </div>
-            </div>
+                    <!-- SUMMARY -->
+                    <div class="carousel-item active">
+                        <div class="row cards-same pr-3 pl-3 gap-15px">
 
-            <div class="card" style="width: 18rem;">
-              <div class="card-body">
-                <h5 class="card-title">Guess the number</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Python, <abbr title="Cascading Style Sheets">CSS</abbr>, <abbr title="Hypertext Markup Language">HTML</abbr>,
-                    Flask, SQLAlchemy, pytest, jinja, <abbr title="Model-view-controller">MVC</abbr> </h6>
-                <p class="card-text">Solo homework project for Smart Ninja course: Web development 1. It includes all the python skills I obtained through the course.</p>
-                <div class="card-button-container">
-                    <a href="https://guessthenumbergame-production.up.railway.app/" class="btn btn-sm btn-info center-element card-button margin-right-20" role="button">Open</a>
-                    <a href="https://github.com/NezaVizintin/Guess_the_number_game" class="btn btn-sm btn-info center-element card-button" role="button">Git</a>
+                            <div class="{{ classes_cards }}">
+                                <div class="card-header d-flex align-items-center justify-content-center color-background-light">
+                                    <h5 class="card-title mb-0">What I also learned</h5>
+                                </div>
+                                <div class="card-body color-background-light border-bottom-0 text-space-apart">
+                                    <ul class="list-unstyled">
+                                        <li class="text-size-3 text-font-calibri border-bottom mt-3">
+                                            I love working with data! From databases to <b>data</b> scraping.
+                                        </li>
+                                        <li class="text-size-3 text-font-calibri border-bottom mt-5">
+                                            Understanding and the ability to utilise the <b>development environment</b>.
+                                        </li>
+                                        <li class="text-size-3 text-font-calibri border-bottom mt-5">
+                                            Competence at dealing with <b>bugs</b>, even when they occur in the
+                                            deployment
+                                            environment.
+                                        </li>
+                                        <li class="text-size-3 border-bottom mt-5">
+                                            Collaboration experience.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- POHODNE POTI -->
+                            <div class="{{ classes_cards }}" style="height: 500px;">
+                                <!-- Header -->
+                                <div class="card-header color-background-light">
+                                    <h5 class="card-title">Pohodne poti</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">
+                                        Django, Beautiful Soup, Svelte, Bootstrap 5, Javascript, Leaflet
+                                    </h6>
+                                </div>
+                                <!-- Body -->
+                                <div class="card-body">
+                                    <h6 class="card-text text-center my-3 text-size-2">
+                                        Assisted on a project for a specialised map project.
+                                    </h6>
+                                    <p class="text-size-4 text-font-calibri">
+                                        I created a single page web app with a GUI that helps parse geoJason data. The
+                                        GUI includes an <b>interactive</b> map made using the Leaflet library. Javascript in
+                                        combination with the Svelte framework is used for managing interactions with
+                                        the map and other elements. Django is used to manage and store data on the backend side.
+                                    </p>
+                                    <br>
+                                    <p class="text-size-4 text-font-calibri">
+                                        I also wrote a script for a <b>CRON job</b> used to scrape data from an online source.
+                                        It scrapes the content of specific table fields using the BeautifulSoup library.
+                                        Then the data is cleaned with python operations and stored in a JSON file.
+                                    </p>
+                                </div>
+                                <!-- Footer -->
+                                <div class="card-footer d-flex align-items-center justify-content-center d-flex align-items-center justify-content-center color-background-light">
+                                    <footer class="text-muted">In development</footer>
+                                </div>
+
+                            </div>
+
+                            <!-- FORUM -->
+                            <div class="{{ classes_cards }}" style="height: 500px;">
+                                <div class="card-header color-background-light">
+                                    <h5 class="card-title">Forum 9000</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">CSS, HTML, Bootstrap 5, SQLite, <abbr
+                                            title="Material design Bootstrap">MDB</abbr></h6>
+                                </div>
+
+                                <!-- Body -->
+                                <div class="card-body">
+                                    <img src="../static/img/forum_screenshot.png" style="width: 100%;"
+                                         alt="Oh no, please let me know if the image is broken."
+                                         class="margin-bottom-10px">
+                                    <p class="text-size-4 text-font-calibri">
+                                        An old-school forum where you can sigh up, create topics, edit them and comment
+                                        on them. Give it a try!
+                                    </p>
+                                </div>
+
+                                <!-- Footer -->
+                                <div class="card-footer d-flex align-items-center justify-content-center color-background-light">
+                                    <a href="https://smartninjawd2lesson3forum-production.up.railway.app/"
+                                       target="_blank"
+                                       class="btn btn-sm btn-info card-button margin-right-20 align-middle">Open</a>
+                                    <a href="https://github.com/NezaVizintin/SmartNinja_WD2_Lesson_3_Forum"
+                                       target="_blank"
+                                       class="btn btn-sm btn-info card-button" role="button">Git</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row cards-same pr-3 pl-3 gap-15px">
+                            <!-- ASTEROIDS -->
+                            <div class="{{ classes_cards }}" style="height: 500px;">
+                                <div class="card-header color-background-light">
+                                    <h5 class="card-title">Asteroids</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Python, <abbr
+                                            title="Model-view-controller">MVC</abbr></h6>
+                                </div>
+                                <!-- Body -->
+                                <div class="card-body">
+                                    <img src="../static/img/asteroids_screenshot.png" style="width: 100%;"
+                                         alt="Oh no, please let me know if the image is broken."
+                                         class="margin-bottom-10px">
+                                    <p class="text-size-4 text-font-calibri">
+                                        Full asteroid game <b>solo</b> project. Final project for "Introduction to Interactive
+                                        Programming in Python" course from Rice University.
+                                    </p>
+
+                                </div>
+                                <!-- Footer -->
+                                <div class="card-footer d-flex align-items-center justify-content-center color-background-light">
+                                    <a href="https://py2.codeskulptor.org/#user49_hSjNJfJHxm_0.py" target="_blank"
+                                       class="btn btn-sm btn-info card-button margin-right-20"
+                                       role="button">Play</a>
+                                    <a href="https://github.com/NezaVizintin/Asteroids" target="_blank"
+                                       class="btn btn-sm btn-info card-button" role="button">Git</a>
+                                </div>
+                            </div>
+
+                            <!-- GUESS THE NUMBER -->
+                            <div class="{{ classes_cards }}" style="height: 500px;">
+                                <div class="card-header color-background-light">
+                                    <h5 class="card-title">Guess the number</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">
+                                        Python, CSS, HTML, Flask, SQLAlchemy,
+                                        pytest, jinja, <abbr title="Model-view-controller">MVC</abbr>
+                                    </h6>
+                                </div>
+                                <!-- Body -->
+                                <div class="card-body">
+                                    <img src="../static/img/number_game_screenshot.png" style="width: 100%;"
+                                         alt="Oh no, please let me know if the image is broken."
+                                         class="margin-bottom-10px">
+                                    <p class="text-size-4 text-font-calibri">
+                                        Solo homework project for Smart Ninja course: Web development
+                                        1. It includes all the python skills I obtained through the course.
+                                    </p>
+                                </div>
+                                <!-- Footer -->
+                                <div class="card-footer d-flex align-items-center justify-content-center color-background-light">
+                                    <a href="https://guessthenumbergame-production.up.railway.app/" target="_blank"
+                                       class="btn btn-sm btn-info card-button margin-right-20"
+                                       role="button">Open</a>
+                                    <a href="https://github.com/NezaVizintin/Guess_the_number_game" target="_blank"
+                                       class="btn btn-sm btn-info card-button" role="button">Git</a>
+                                </div>
+                            </div>
+
+                            <!-- HANS THE HAIRDRESSER -->
+                            <div class="{{ classes_cards }}" style="height: 500px;">
+                                <div class="card-header color-background-light">
+                                    <h5 class="card-title">Hans the Hairdresser</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">CSS, HTML, Bootstrap 4</h6>
+                                </div>
+                                <!-- Body -->
+                                <div class="card-body">
+                                    <img src="../static/img/hairdresser_screenshot.png" style="width: 100%;"
+                                         alt="Oh no, please let me know if the image is broken."
+                                         class="margin-bottom-10px">
+                                    <p class="text-size-4 text-font-calibri">
+                                        <b>First</b> frontend solo homework project for Smart Ninja course:
+                                        Web development 1.
+                                    </p>
+                                </div>
+                                <!-- Footer -->
+                                <div class="card-footer d-flex align-items-center justify-content-center color-background-light">
+                                    <a href="https://hairdresser-hans-website-production.up.railway.app/"
+                                       target="_blank"
+                                       class="btn btn-sm btn-info card-button margin-right-20">Open</a>
+                                    <a href="https://github.com/NezaVizintin/Hairdresser-Hans-website" target="_blank"
+                                       class="btn btn-sm btn-info card-button" role="button">Git</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
-              </div>
             </div>
+            <!--End carousel-->
+        </div>
+        <div class="col-1 d-flex align-items-center justify-content-center"><a href="#carouselExampleIndicators"
+                                                                               data-slide="next">
+            <div class="carousel-nav-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/>
+                </svg>
+            </div>
+        </a>
         </div>
     </div>
 {% endblock content %}

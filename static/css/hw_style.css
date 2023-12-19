@@ -1,24 +1,44 @@
+/* Variables */
+
 :root {
     --button-color: #5783db;
     --button-color-hover: #75A1F9;
     --button-shadow-focus: #618DE5;
 }
 
+/* Body */
+
 body {
     background-size: 100vw 100vh;
     background-image: radial-gradient(rgba(255, 192, 203, 0.2), rgba(140, 130, 182, 0.1));
 }
 
+/* Colors */
+
+.color-background-light {
+    background-color: rgba(125, 149, 227, 0.1);
+}
+
+.color-background-highlighted {
+    background-color: rgba(130, 134, 182, 0.4);
+}
+
+.border-light {
+    border: 1px solid lightsteelblue;
+}
+
+/* Text */
+
 .title {
     color: slategrey;
     margin-bottom: 60px;
-    font-family: "Sabon";
+    font-family: "Sabon", serif;
     font-size: 50px;
 }
 
 .text {
-    color: charcoal;
-    font-family: "Sabon";
+    color: rgb(54, 69, 79);
+    font-family: "Sabon", serif;
 }
 
 .text-headline-list {
@@ -26,8 +46,12 @@ body {
     text-align: center;
 }
 
+.text-size-4 {
+    font-size: 1rem;
+}
+
 .text-size-3 {
-    font-size: 18px;
+    font-size: 18.3px;
 }
 
 .text-size-2 {
@@ -38,19 +62,42 @@ body {
     font-size: 30px;
 }
 
-.margin-bottom-50 {
+.text-space-apart {
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.text-font-calibri {
+    font-family: Calibri, serif;
+}
+
+/* Spacing */
+
+.margin-bottom-50px {
     margin-bottom: 50px;
 }
 
-.margin-right-20 {
-    margin-right:20px;
+.margin-top-10rem {
+    margin-top: 10rem;
 }
+
+.margin-bottom-10px {
+    margin-bottom: 10px;
+}
+
+.margin-right-20 {
+    margin-right: 20px;
+}
+
+.gap-15px {
+    gap: 15px;
+}
+
+/* Positioning */
 
 .center-element {
     text-align: center;
 }
-
-
 
 .center-body {
     position: fixed; /* ignores all other elements on the page */
@@ -62,21 +109,39 @@ body {
     padding-right: 20px;
     display: flex; /* enables flex box */
     flex-direction: column; /* displays elements in a column */
-    justify-content: center;  /* items are horizontally centered and not spaced out */
-    align-items: center;  /* items retain their size and are vertically centered  */
+    justify-content: center; /* items are horizontally centered and not spaced out */
+    align-items: center; /* items retain their size and are vertically centered  */
+}
+
+/* Positioning - flex */
+
+.flex-row-evenly {
+    display: flex; /* enables flex box */
+    flex-flow: row nowrap; /* shortcut that combines flex direction and flex wrap */
+    justify-content: space-evenly; /* items are evenly distributed in the line; first item is on the start line, last item on the end line */
 }
 
 .flex-row-evenly {
     display: flex; /* enables flex box */
-    flex-flow: row nowrap;  /* shortcut that combines flex direction and flex wrap */
-    justify-content: space-evenly; /* items are evenly distributed in the line; first item is on the start line, last item on the end line */
+    flex-flow: row nowrap; /* shortcut that combines flex direction and flex wrap */
+    justify-content: start; /* items are evenly distributed in the line; first item is on the start line, last item on the end line */
 }
 
+/* Sizing */
 
+.height-500px {
+    height: 500px;
+}
+
+.max-width-19rem {
+    max-width: 19rem;
+}
+
+/* ELEMENT SPECIFIC */
 
 .text-random-fact {
-    color: charcoal;
-    font-family: "Sabon";
+    color: rgb(54, 69, 79);
+    font-family: "Sabon", serif;
 }
 
 .container-index-buttons {
@@ -84,8 +149,9 @@ body {
     flex-direction: column;
 }
 
+/* Button back */
+
 .button-back {
-    position: fixed; /* ignores all other elements on the page */
     color: slategrey;
     font-size: 50px;
     cursor: pointer;
@@ -96,10 +162,38 @@ body {
     color: dimgrey;
 }
 
+.overflow-auto {
+    overflow: visible;
+}
+
+/* Cards */
+.cards-same .card {
+    height: 500px;
+    border: 1px solid rgba(176, 196, 222, 0.6);
+    /* the rest of the card classes are imported from the server  */
+}
+
+.cards-same .card-header {
+    height: 90px;
+    border-bottom: 0;
+}
+
+.cards-same .card-body {
+    font-size: 0.9em;
+    padding-top: 10px;
+    border-top: 1px solid lightsteelblue;
+    border-bottom: 1px solid lightsteelblue;
+}
+
+.cards-same .card-footer {
+    height: 70px;
+    border-top: 0;
+}
+
+/* Cards - button */
 .card-button {
     height: 33px;
     width: 70px;
-    margin-bottom: 15px;
 }
 
 .card-button-container {
@@ -113,25 +207,33 @@ body {
     align-items: flex-end;
 }
 
+/* Carousel */
+
+.carousel-nav-icon {
+    height: 48px;
+    width: 48px;
+}
+
+
 /*BOOTSTRAP MODS:*/
 
 .btn-info {
-  background-color: var(--button-color);
+    background-color: var(--button-color);
 }
 
 .btn-info:hover {
-  background-color: var(--button-color-hover);
+    background-color: var(--button-color-hover);
 }
 
 .btn-info:focus, .btn-info.focus {
-  background-color: var(--button-color-hover);
-  border-color: var(--button-shadow-focus);
+    background-color: var(--button-color-hover);
+    border-color: var(--button-shadow-focus);
 }
 
 .btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active,
 .show > .btn-info.dropdown-toggle {
-  background-color: var(--button-color-hover);
-  border-color: var(--button-shadow-focus);
+    background-color: var(--button-color-hover);
+    border-color: var(--button-shadow-focus);
 }
 
 .card {
@@ -145,9 +247,10 @@ body {
 
 
 .container {
-  align-content: center;
-  align-items: center;
+    align-content: center;
+    align-items: center;
 }
+
 
 /* ARCHIVE: */
 

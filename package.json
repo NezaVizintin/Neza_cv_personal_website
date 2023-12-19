@@ -1,0 +1,28 @@
+{
+  "name": "neza_cv_personal_website",
+  "version": "1.0.0",
+  "description": "Web CV for Neža Vižintin.",
+  "main": "main.py",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NezaVizintin/Neza_cv_personal_website.git"
+  },
+  "keywords": [
+    "Neža",
+    "Vižintin",
+    "Neza",
+    "Vizintin",
+    "developer",
+    "cv",
+    "portfolio"
+  ],
+  "author": "Neža Vižintin",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/NezaVizintin/Neza_cv_personal_website/issues"
+  },
+  "homepage": "https://github.com/NezaVizintin/Neza_cv_personal_website#readme"
+}
