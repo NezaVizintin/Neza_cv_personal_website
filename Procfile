@@ -1,1 +1,1 @@
-web: /usr/local/lib/python3.12/dist-packages/gunicorn main:app
+web: gunicorn main:app --preload
