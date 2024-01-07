@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+import os
 import json
 import random
 
@@ -36,4 +37,4 @@ def fact_generator():
 
 
 if __name__ == "__main__":
-    app.run(use_reloader=True)
+    app.run(debug=True, port=os.getenv("PORT", default=5000))
